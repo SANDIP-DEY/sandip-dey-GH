@@ -1,0 +1,6 @@
+{
+  "name": "ShipVault - Secure Shipping Address Intake & Verification",
+  "description": "Secure shipping address collection portal featuring intuitive instant address lookup, geolocation auto-fill, address standardization, AES-256-GCM encrypted storage at rest, and dispatcher logistics management.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

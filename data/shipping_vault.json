@@ -1,0 +1,126 @@
+{
+  "records": [
+    {
+      "id": "SHIP-1004-7544",
+      "trackingNumber": "TRK-9400299556620092",
+      "createdAt": "2026-11-06T17:32:50.810Z",
+      "updatedAt": "2026-11-06T17:32:50.810Z",
+      "status": "verified",
+      "carrierPreference": "standard",
+      "addressType": "residential",
+      "deliverabilityScore": 100,
+      "coordinates": null,
+      "maskedMetadata": {
+        "maskedName": "A**** M*****",
+        "city": "San Francisco",
+        "stateProvince": "",
+        "postalCode": "94105",
+        "country": "United States",
+        "countryCode": "US"
+      },
+      "encryptedPayload": {
+        "iv": "692d04eaecd64904a9a45bfd",
+        "tag": "4466edd9def9725c4c8206c9fd96f566",
+        "ciphertext": "c0cfebb4b1411e5901bc37d5a62c7b70d35795350331202ee602618293a59711e383b21331ffe6eee5d8701850a42757036530f9d6cc3c4c564a66c2bd2a4426b37e84826f434d232c8d06f2182532e420971e41e68bf45f082ba2d13ed747f43a2ee732af027a70c17bf20f764d4e647ed95907cf7cc52c9eef63f0827eed8c05e1228b6b80d6ce638b6f25576987136addf7896bf29e4ebd81b1bcf02a151aa2eba3d0f139d00aaa9d600a8c0e31fe38403aa3036cebf54d0deb37c18d06d54ccd9cb194f81e076eb899eaeb6f627ef02da92e27641e9dde27a64cf77f5bb6300fbf409181754586d5447a481eafdab35b32ace1c33cf7437882ca9cbd9dc52fdb"
+      },
+      "auditTrail": [
+        {
+          "id": "21e5c5b0-1a98-4155-9494-02b5ad72c7d0",
+          "timestamp": "2026-11-06T17:32:50.810Z",
+          "action": "created",
+          "actor": "customer",
+          "details": "Recipient address safely encrypted using AES-256-GCM. Deliverability confidence score: 100%."
+        }
+      ]
+    },
+    {
+      "id": "SHIP-8000-1200",
+      "trackingNumber": "TRK-940010928371",
+      "createdAt": "2026-11-06T13:32:32.089Z",
+      "updatedAt": "2026-11-06T13:32:32.089Z",
+      "status": "in_transit",
+      "carrierPreference": "overnight",
+      "addressType": "commercial",
+      "deliverabilityScore": 98,
+      "coordinates": {
+        "lat": 37.7879,
+        "lng": -122.3968
+      },
+      "maskedMetadata": {
+        "maskedName": "E****** V****",
+        "city": "San Francisco",
+        "stateProvince": "CA",
+        "postalCode": "94105",
+        "country": "United States",
+        "countryCode": "US"
+      },
+      "encryptedPayload": {
+        "iv": "7b9f1beb6d6584bd3b796b9d",
+        "tag": "7a04b5fb977259ffd06fde5a053fc4bd",
+        "ciphertext": "7ae7307b567e2c46bfdf09099fcee034d92aa6c99d73123d7da137682414be62c4004e6b3cc8b36d652f550204b22f93178b7797e89b9f4dbeed34f2bb6c8ebcbd0c18e9ed329ce85765a45b613402469dbb557c88574067ad505703db8f9eb3e00b002bc2380abfc152b83d151120a608f160b9a993a2757a1960e02c193db24d37513f7a31a4419c3b95a6f5041fc06321920097df60e72425fc65124e45f3d10b89a889340bd4a480765b51588facdcc12738d662c6c7e61b2f828cf1edd37f59a124c6d0bf1911cea651971925a871ba68c3d6b6a40333739d581194573699acef30000c6535e93c9f783d51ce796155091527bc403d89319da5fe10c87c8b073a034f0655ddd086f3f380a0731c52e73c31e25e8266b45aaf33ed8ba72ee0a5398ccea8bcbdb2f4b4d7330815a97279ec282cc935be430c1908a906c1aef3d3cc6775c162abe783564cedae19bc100dbcd85ccfb64e69fc55d3b2a3addf4285bfe416e25399d4184a1d3a90e2d69cf6088110092a07a82f"
+      },
+      "auditTrail": [
+        {
+          "id": "0b9c0a39-50d7-4b42-9ecc-7eb7c02ca077",
+          "timestamp": "2026-11-06T13:32:32.089Z",
+          "action": "created",
+          "actor": "customer",
+          "details": "Initial shipment seed with AES-256-GCM verification."
+        }
+      ]
+    },
+    {
+      "id": "SHIP-8142-1285",
+      "trackingNumber": "TRK-940010928372",
+      "createdAt": "2026-11-06T09:32:32.090Z",
+      "updatedAt": "2026-11-06T09:32:32.090Z",
+      "status": "verified",
+      "carrierPreference": "express",
+      "addressType": "residential",
+      "deliverabilityScore": 98,
+      "coordinates": {
+        "lat": 40.7484,
+        "lng": -73.9857
+      },
+      "maskedMetadata": {
+        "maskedName": "M***** S*******",
+        "city": "New York",
+        "stateProvince": "NY",
+        "postalCode": "10118",
+        "country": "United States",
+        "countryCode": "US"
+      },
+      "encryptedPayload": {
+        "iv": "c7e8250d3600f983eb273a6d",
+        "tag": "5c7434e1949fe3283b813d36dc0fc0e8",
+        "ciphertext": "52cf79a98d786c93f9dd06a06b1ea642d9ffb393ad2b6fad309546dceb626a3785fd1b839977d7b5f48ac987ac6c7d30dba48355fc9879a075fc64c310973e0c8a38ccca80be333b555f8536d313de6af501965e5cd14d974cc6425293d95f46227a1980e9810bec2a637b194726f1fb64f14ac1b4aac447532e1c6476ad79e89d03cadc2b2e26d5f180ff8c7d41f327b3ce9c40eb16d9c00ea67fe3eec1d83c2d8e2467853747ee4fa2383533cf75cfcf31d03d8c464de3baceed31dad89905050bfad87b9de2d3c21e9298f1be9ece1e0423be71c8ceeb732284e754686a8e5113ca628488206131dd86d4b9d14727d161436e15b713b46629ad55b1bc7cf4f1267e70ca8e181195fe25d92bad603618b2faa21c546e1f43c43648f13b5469097273c801bbc4b4a78e6116dcb3b777d92e6f54433d1be9a4dd296ea0bb377f1d7363c27e7162b04f7950a4a607e1614965"
+      },
+      "auditTrail": [
+        {
+          "id": "f4b28f2e-7db0-4a45-85a5-8f14ddb8b065",
+          "timestamp": "2026-11-06T09:32:32.090Z",
+          "action": "created",
+          "actor": "customer",
+          "details": "Initial shipment seed with AES-256-GCM verification."
+        }
+      ]
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "12783ad3-ddb4-47e2-b914-010b4079c8a0",
+      "timestamp": "2026-11-06T17:32:50.810Z",
+      "recordId": "SHIP-1004-7544",
+      "action": "address_encrypted_and_stored",
+      "actor": "customer",
+      "details": "New shipping address record created with ID SHIP-1004-7544 and tracking TRK-9400299556620092."
+    },
+    {
+      "id": "bba4e628-272b-4444-9021-eb66c713c479",
+      "timestamp": "2026-11-06T17:32:32.088Z",
+      "action": "vault_initialized",
+      "actor": "system",
+      "details": "AES-256-GCM Secure Shipping Database Vault Initialized with Authenticated Cryptography."
+    }
+  ]
+}
